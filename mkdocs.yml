@@ -1,0 +1,25 @@
+# Wiki Information
+site_name: Ingress Wiki
+site_description: 开放的 Ingress 中文维基
+site_url: https://zh.ingress.wiki
+
+# Repository
+repo_name: 'Ingress-wiki/Ingress-wiki'
+repo_url: 'https://github.com/Ingress-wiki/Ingress-wiki-zh'
+
+# Theme
+theme:
+  name: material
+  language: zh
+
+
+
+# Language
+extra:
+  alternate:
+    - name: English
+      link: https://ingress.wiki 
+      lang: en
+    - name: Chinese
+      link: /
+      lang: zh
