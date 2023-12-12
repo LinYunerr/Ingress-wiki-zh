@@ -11,6 +11,12 @@ repo_url: 'https://github.com/Ingress-wiki/Ingress-wiki-zh'
 theme:
   name: material
   language: zh
+  features:
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
 
 
 
@@ -23,3 +29,7 @@ extra:
     - name: Chinese
       link: /
       lang: zh
+
+nav:
+  - 简介: index.md
+  - 入门指南: /start_guide
