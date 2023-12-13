@@ -16,7 +16,7 @@
 
 ##### How：
 
-- 找到一个已经激活超频的Po（可以看见有钻石形状的模型在Po上）
+- 找到一个已经激活超频的Po（可以看见有菱形形状的模型在Po上）
 - 距离Po 20 米内，按超频（Overclock）按钮
 - 将摄像头指向Po的实物
 - 认出Glyphs并输入
@@ -31,13 +31,9 @@
 #### 术语表
 
 - AR - 增强现实
-
 - OC - 超频入侵
-
 - 激活 - 在Wayfarer 或 Lightship 平台激活VPS功能
-
 - 校准 - OC初始化过程（成功校准将显著增加Hack掉落的物资）
-
 - 输出倍数 - 影响OC最后输出的倍数 (掉落的物资、徽章/牌子的分数)
 
 > *输出倍数依据校准结果而定(x1 - x4)。简而言之, OC结果为：输出倍数乘以一次入侵所获得的输出。*
@@ -46,11 +42,11 @@
 
 #### 什么是OC
 
-OC是一种新的Hack方法，通过AR让Glyphs在空间中呈现。其关键优势在于跟快速的从从Po中获取物资和过热。这个新的方式只适用于已激活的Po并在Ingress地图上有钻石标志。
+OC是一种新的Hack方法，通过AR让Glyphs在空间中呈现。其关键优势在于跟快速的从从Po中获取物资和过热。这个新的方式只适用于已激活的Po并在Ingress地图上有菱形标志。
 
 通过以下方式进行OC：
 
-1. 找到一个已经激活超频的Po（可以看见有钻石形状的模型在Po上）
+1. 找到一个已经激活超频的Po（可以看见有菱形形状的模型在Po上）
 2. 距离Po 20 米内，按超频（Overclock）按钮
 3. 将摄像头指向Po的实物
 4. 认出Glyphs并输入
@@ -143,3 +139,74 @@ OC是一种新的Hack方法，通过AR让Glyphs在空间中呈现。其关键优
 ##### 11.在Po初始激活后，是否有可能检查扫描统计信息？在 Lightship 中看不到任何内容，只有状态。
 
 您可以随时在 Wayfarer 应用程序中查看扫描信息。请随时使用它来跟踪初始激活后上传的扫描。
+
+### 拓展延伸
+
+**重要提示：在非旅游地点附近进行拍摄时，务必要非常小心和耐心。即使无意中拍摄到附近的人，他们可能会感到不舒服。在公园OC过程中可能会遭到愤怒家长的纠缠，这种风险是得不偿失的。**
+
+#### 如何通过地图找到可超频的Po
+
+##### Lightship
+
+目前，无法通过Ingress Intel查看已激活的传送门。然而，您可以使用Lightship网站的Geospatial Browser来搜索已激活的路径点。打开lightship.dev并进入地理空间浏览器，取消“Experimental Quality”图层的激活，因为这些Po未能成功激活。点击图中显示的标记将显示标记的详细信息，以及扫描创建的坐标和3D网格。如果这些标记也是Ingress中的Po它们应该可以激活过载。
+
+![img](https://lh7-us.googleusercontent.com/NwqI_0Z5wSQZ0meWcU7y64dkHBvWo0VffhFYafQLS0ScgHXamQmOZME6eRWgGLmlRomGEXGYuF1FeMJqyzUw1dkpKNkyOQ4e2wjmpW7umbQGLItG_OBKVRHFIXQbyG6KoXCThnCcdO6ny7L6sQFrsnI)
+
+上面三张图分别为 所有*wayspots*，激活的Po，production quality的po。注意图片底部的过滤选项。
+
+
+
+##### OC map
+
+由玩家 @Chestnut_LUO 在 Lightship 的数据上二次开发，过滤出所有production quality的wayspots（可OC的Po），每2小时与Lightship 数据库同步。
+地图地址：https://oc-map.ingress.wiki/ 
+开源仓库：https://github.com/Ingress-wiki/OverClocking-Map
+
+![img](https://lh7-us.googleusercontent.com/c_RjgNBcZ40N3pXSjpsPcTzeFzfhIChPRg7wlIhHVPdu1DF8WvgHmRjG3br41y46DW_qJB9D7d-nnuNFsu35LV0JzW3TkDjXgukOU8SBE6W_7dMouTUEeJYecJI3Kbwn5N8fbIpz6aPUtsShWZaBA9s)
+
+##### Wayfarer app
+
+你也可以通过Wayfarer app去寻找已激活的Po，但是在Wayfarer app中没有production quality过滤器
+
+![img](https://lh7-us.googleusercontent.com/LKqhTDrHxbo4JnDIqpe-VWLGRSphODkMyCpSWRD2RBnJsLgu_lNgI974sdP-sOp-2ZHOYuUKL6XDJTe6xlyy3IUiHv0Aop6-qJtrKYXvexmBKFveSpdw7wjjKi7jHpWshrusZ0XThavlUNd0IyXfir0)
+
+使用Wayfarer app的地图，显示所有的wayspots已激活的wayspots。
+
+##### Q：我提交的 Wayspot 被分类为 "**Good/Production**"，但在 Ingress 中无法超频。出了什么问题？
+
+如果一个 Wayspot 刚刚被激活并分类为 "**Good/Production**"，相应的 Portal 可能还没有激活超频功能。需要等待Ingress数据库同步，包括超频状态，因此你可能需要等待几天，才能对该 Portal 进行超频操作。
+
+
+
+#### 如何开始OC？
+
+首先，请确Ingress上是否可用超频（OC）功能。您可以通过Po的外观来判断：符合超频条件的Po会在中央展示一个明亮的菱形图标，并且在菜单中超频按钮不会被划掉。![](https://img-cdn.akass.cn/5/2023/12/65790585cd127.png)
+
+图1:左边的Po可超频，右侧未激活超频
+图2:如果距离Po20米之内将显示菱形和超立方体
+
+接下来，靠近Po中心将距离保持在20米或更近的范围内，并在Po菜单中按下超频按钮（如果操作正确，其背景将变成黄色）。
+
+![img](https://lh7-us.googleusercontent.com/ZnWujmMW0EBfZpoNSMtebVYBxKcyy3WbTkh00jlXDRVSkFKoG2AP1lfc0v6mCigtLrTe878v0wzS51PlOcTLK6DVBavJO5_r22YcFZyzVU1ZFoApIsKRa-8vX9vgL3mGSeUTQHzJXRmStAJ851Ed_-c)
+
+四种不同的超频按钮：左上↖️：已激活超频，在20米范围内  右上↗️：已激活超频，不在20米范围内 左下↙️：未激活超频在20米范围内 右下↘️：未激活超频，不在20米范围内
+
+随后，将出现一个与常规Glyphs入侵相同的命令界面。目前，只有两个选项可用：“More”以获取Key和“Less”以避免获得Key。
+
+##### Q：如果输入其他的命令？（如"complex"、"simple"）
+
+将显示"未知命令"，其余Glyphs未作测试。
+
+#### 校准
+
+在输入完命令后将启动校准程序。手机摄像头将被激活并拍摄，拍摄到的视频将会被传输到游戏服务器。
+
+![img](https://lh7-us.googleusercontent.com/h59kuXiyiP-58TTH33xPVI_1DACZFlTXZc2FhPdwLGwBGCgM7Z5hu-_bJYetWKV4uSHGEzGVVyuXXdpcj17SzulE3lcoFw1NGggs3iLO8698dXP67KKmwFbfG0xXSk8g_dX5ZF4d-r2IDw42Mx5cbCk)
+
+校准程序如图所示。
+游戏会提示将手机来回移动，但在阴暗条件下，尽量减少移动，以拍摄更清晰的画面。
+
+![img](https://lh7-us.googleusercontent.com/RMT8CNnQ-n6gEqzxXIE6m9aPSJGrm-zvBAr2MiO0Iu4G1nWJ_j1kbGFiLdy8W7su8uAzrkYYbEXRjymPidvfaad7IAhVjPed1fsrSc9mpy-9ERjjaW_6xT_EE6zJQa3dT_fxsVajTF8mD4QS6TYWHp8)
+
+成功校准和校准失败的示意图
+成功校准后将显示输出倍数，点击"Continue"将启动OC窗口。如果校准失败，您可以选择重新尝试校准或启动未校准OC
