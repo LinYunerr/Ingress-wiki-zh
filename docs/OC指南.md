@@ -189,7 +189,7 @@ OC是一种新的Hack方法，通过AR让Glyphs在空间中呈现。其关键优
 
 ![img](https://lh7-us.googleusercontent.com/ZnWujmMW0EBfZpoNSMtebVYBxKcyy3WbTkh00jlXDRVSkFKoG2AP1lfc0v6mCigtLrTe878v0wzS51PlOcTLK6DVBavJO5_r22YcFZyzVU1ZFoApIsKRa-8vX9vgL3mGSeUTQHzJXRmStAJ851Ed_-c)
 
-四种不同的超频按钮：左上↖️：已激活超频，在20米范围内  右上↗️：已激活超频，不在20米范围内 左下↙️：未激活超频在20米范围内 右下↘️：未激活超频，不在20米范围内
+四种不同的超频按钮：左上↖️：已激活超频，在20米范围内  右上↗️：未激活超频，不在20米范围内 左下↙️：未激活超频，在20米范围内 右下↘️：未激活超频，不在20米范围内
 
 随后，将出现一个与常规Glyphs入侵相同的命令界面。目前，只有两个选项可用：“More”以获取Key和“Less”以避免获得Key。
 
@@ -209,4 +209,137 @@ OC是一种新的Hack方法，通过AR让Glyphs在空间中呈现。其关键优
 ![img](https://lh7-us.googleusercontent.com/RMT8CNnQ-n6gEqzxXIE6m9aPSJGrm-zvBAr2MiO0Iu4G1nWJ_j1kbGFiLdy8W7su8uAzrkYYbEXRjymPidvfaad7IAhVjPed1fsrSc9mpy-9ERjjaW_6xT_EE6zJQa3dT_fxsVajTF8mD4QS6TYWHp8)
 
 成功校准和校准失败的示意图
-成功校准后将显示输出倍数，点击"Continue"将启动OC窗口。如果校准失败，您可以选择重新尝试校准或启动未校准OC
+成功校准后将显示输出倍数，点击"Continue"将启动OC窗口。如果校准失败，您可以选择重新尝试校准或启动未校准OC。此外，在OC完成后，您将被提示扫描传送门以提高质量。要了解在特定Po上需要扫描哪个精确区域进行校准，请参考该Po在Lightship中建立的三维模型。
+
+![img](https://lh7-us.googleusercontent.com/wpEk7ve3LTAnr2dBLpKMJxwk30PQ2KPp4cUROkLRQFO1caAfrIydJIV4gG3veq4JiOdFgygpt9M3BqkSlORw0kwM9tbya64zL-_ECH-FyFbPgKkhR3sQqEMvauDOhWG9qzyUjzd5VLRz0VKgwMems2U)
+
+##### Q：校准需要多长时间？传输多少数据？
+
+校准通常需要10秒，如果扫描良好（包括建立的模型质量和OC时质量）可以缩短到1-2秒。在整个校准过程中，视频以500-700KB/s速度上传
+
+##### Q：在校准中主动退出会发生什么？
+
+当校准中你主动按下退出按钮会以常规Hack结算
+
+##### Q：输出倍数将如何计算？
+
+当校准失败输出倍数固定为x1；如果成功输出倍数最高可达到x4，具体取决于Po在过热（大CD）前剩余的Hack次数。例如，在没有Mod的Po上进行一次常规Hack/Glyph入侵后使用OC入侵，如果校准成功将会获得x3的输出倍数。在具有2个VRMH的Po上最高可以获得5次x4倍数和一次x2倍数的OC入侵。
+
+当然，如果你想训练OC入侵可以故意校准失败。在带有一个VRMH的Po可以进行16次未校准的OC入侵，而成功校准只能进行4次OC。（如果想故意失败，只需对着天空或你的手进行扫描）
+
+#### 放置超立方
+
+在放置界面中，一个预览的超立方体将出现。你需要按下"Deploy"选择一个合适的位置放置超立方。
+
+同时你可以在屏幕上方看见你的输出倍数和校准结果，校准成功将会显示绿色，否则显示紫色。
+
+![img](https://lh7-us.googleusercontent.com/DuFAxDw8ca368yM1eKo_2ULuMjs06YjGbtuf6e_LvgMK4uzbxivm3yPnd5Vv4tsnGp90-SCxp4nUby80iXDtH6ObkmRMHW4TsI8NpE8oH_sUfkLLIULV4cNUYpGcdBDkhZE6-u5Clp1Dsjz_JTHjDeY)
+
+放置超立方界面。绿色背景表示校准成功。若校准不成功，则背景颜色将变为紫色。
+
+
+
+##### Q: 在超立方旋转时，有没有最佳的放置超立方体的时机？
+
+没有，超立方无论何时都会被设定在一个特定的状态。唯一需要考虑的是在完成扫描之后大幅度运动使超粒方丢失。在放置超立方体之前转动超过90度可能会导致镜像符号的显示(就像从超立方体的后面看过去一样)。
+
+##### Q: 有没有数据发送到Niantic服务器？有数据使用吗？
+
+没有，数据只在校准过程中传输；所有其他操作都在设备上执行。
+
+#### OC过程
+
+所有Glyph都将显示在超立方内。在熟悉OC时，你可能会遇到"嗯，这是什么？"的瞬间。你要么猜一下，要么在超立方体放置的位置周围走动，将线条的排列与字形对齐。
+
+![img](https://lh7-us.googleusercontent.com/IkNj1B5UHvO328Oq-aNswLZ6cHtqXbLcaIZdEFtWYqNz0BCIXyt0nMRzNI54AY7JdrJcZOdDaRThhYP75vQJuCjlGBOfaYZRnVv9udp2BZdfAeshdBXEUEUQni3DECNqjLmJwg4E6jiR6ntnSk0rS6c)
+
+*Glyph and… glyph?*
+
+和普通Glyph入侵一样，出现的图形数量和Po的等级挂钩。同时也有"Redo"让您重画Glyph。
+
+
+
+##### Q：OC的Hack的时间限制是多少？
+
+时间依据等级而定
+
+Level 1: 48 秒
+
+Level 2: 36 秒
+
+Levels 3-5: 30 秒
+
+Levels 6-7: 27 秒
+
+Level 8: 25 秒
+
+**嫌太少了？在更新之前L8的入侵时间只有17秒🌚**
+
+##### Q：经过练习最快能用多少秒完成L8的OC？
+
+如果你幸运的找到了正确的组合（第一个Glyph显而易见且背了5图模板）可以在7-8秒内完成，否则可能需要12-13秒。这取决于你的练习程度。
+
+##### Q: 我需要等多久才能看到glyph的显示？超立方变换都需要很久！
+
+第一个符号出现前超立方会显示变换的动画。每个后续的glyph在按下上一个glyph提交按钮后的一秒钟内出现。
+
+##### Q: 我能取消之前输入的glyph吗？
+
+不，不可能取消前一个glyph的输入，只能取消当前glyph的输入。
+
+##### Q: 我在第一个glyph之后就理解了整个组合！我需要等待它们被绘制吗？（背图）
+
+如果你理解了组合，就不需要等待后续的glyph；你可以立即输入它，这完全取决于你手指的灵活性。
+
+##### Q: 顶部的条形和高亮表示什么？它是如何工作的？
+
+顶部条形是一个计时器，指示剩余时间，在OC期间逐渐减少。如果剩余时间超过一半，它会变为绿色；如果是25%-50%，它会变为黄色；如果少于25%，则会变为红色。
+
+##### Q: 如果我在OC过程中按下退出按钮会发生什么？
+
+在OC期间按退出按钮结算讲按照已经输入的进行结算。
+
+##### Q：如果在OC期间退出游戏会发生什么？
+
+和普通glyph入侵一样，你可以重新开始OC。
+
+#### 如何理解这些让人烦恼的线条？
+
+你只需要意识到常规的glyph是将超立方体投影到二维表面上。要获glyph，你应该围绕超立方体行走，并将其中一个角指向你。如果你选择正确，你将可以获取到glyph。
+
+![img](https://lh7-us.googleusercontent.com/_AtfyFUtngACLXV0ltjfHDdo1BW_sjF2Mb4BYsuNqAcmqzo0cKeAOdocoWNCGWsph4ZDZG0Er1dXjl46Ra3LspEtusuZhsypWAOQHNV0XA7iW16B0oyWIAx6jBcSC3uCWE5tPSCJBm6K1uHWLU2iZvU)
+
+#### OC结算
+
+在输入完所有glyph后将出现熟悉画面，与常规glyph入侵不同它增加了输出倍数的显示。
+
+![img](https://lh7-us.googleusercontent.com/jZiTIYN0Qy8YH_Mi_VChlq4siTCPtVuylz5m3cYjUa8f7PThDfvCaCgj2y6r9Di1GWCbiADKjxugn7Dm_uL50J3UMMrPLM31VgcQLV1cpqxVlIV6GGlxMquScNQRyZJMIsdeZZ-oUCAqF0z1-JuB0EE)
+
+Ingress的11周年纪念日上的OC结算画面
+
+假设你对一个L8Po进行了OC输出倍数为x4，且glyph完全正确，以下为结算内容：
+
+- 将执行四次Glyph hack，其速度奖励与OC的速度奖励相等。
+- 获得四倍于Glyph hack的AP奖励。
+- Hack 徽章/牌子将获得4个点数。
+- Translator徽章/牌子将获得15 * 4 = 60个点数。
+- Overclocker数据将获得15 + 5 = 20个点数。
+- 将显示掉落物的总量（有时相当惊人！）。
+- Po的Hack计数将减少4个。
+- 冷却时间与常规Hack与Glyph hack相当
+
+##### Q：OC会消耗多少XM？
+
+XM消耗将相当于进行1次Hack所消耗的量（在L8传送门的情况下，为400 XM）。
+
+##### Q：如果XM不足，可以进行OC吗？
+
+是的，可以进行OC，不进行结算且显示最终屏幕后将显示一个错误，并且您将需要重新进行Hack。
+
+##### Q：fracker（能量塔压榨器）是否对OC生效？
+
+fracker（能量塔压榨器）适用于所有Hack。
+
+##### Q:Epoch（每日连签）增倍奖励会影响OC吗？
+
+如果OC是当天第一次Hack，Epoch会影响OC四次（假设为x4输出倍率）中的其中一次，而不是全部。
