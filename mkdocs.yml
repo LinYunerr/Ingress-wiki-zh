@@ -7,6 +7,14 @@ site_url: https://zh.ingress.wiki
 repo_name: 'Ingress-wiki/Ingress-wiki'
 repo_url: 'https://github.com/Ingress-wiki/Ingress-wiki-zh'
 
+markdown_extensions:
+  - admonition #MkDocs 警告框
+  - footnotes #脚注
+  - meta #自定义文章元数据
+  - pymdownx.caret #下划线
+  - pymdownx.mark #文本高亮
+  - pymdownx.tilde #删除线
+
 # Theme
 theme:
   name: material
@@ -17,6 +25,7 @@ theme:
     # - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
+    - pymdownx.caret #下划线
 
 
 
@@ -33,4 +42,4 @@ extra:
 nav:
   - 简介: index.md
   - 入门指南: /start_guide
-  - OC指南: /OC指南
+  - OC指南: /OC-guide
