@@ -3,10 +3,6 @@
 
 *[原文地址](https://docs.google.com/document/d/1Zq5nQBR2wK84bgiHj3frVVtFgdP_gbo61cME7Mdq_LM) 已获得原作者授权*
 
-[TOC]
-
-
-
 #### TL;DR（省流）:
 
 ##### Why：
