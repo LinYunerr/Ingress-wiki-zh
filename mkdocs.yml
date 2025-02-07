@@ -43,5 +43,5 @@ nav:
   - 简介: index.md
   - 入门指南: 
 	- 快速上手："/start_guide"
-	- 识别ingress："/1.ingress.md"
+	- 识别ingress："/start_guide/1.ingress.md"
   - OC指南: /OC-guide
