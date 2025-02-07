@@ -42,5 +42,5 @@ extra:
 nav:
   - 简介: index.md
   - 入门指南: /strat_guide
-    - 页面1: /strat_guide/1.ingress.md
+    - 页面1: /strat_guide/test1
   - OC指南: /OC-guide
