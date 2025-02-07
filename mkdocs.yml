@@ -42,4 +42,5 @@ extra:
 nav:
   - 简介: index.md
   - 入门指南: /strat_guide
+    - 11: /test1
   - OC指南: /OC-guide
