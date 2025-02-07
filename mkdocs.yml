@@ -40,7 +40,11 @@ extra:
       lang: zh
 
 nav:
-  - 简介: index.md
-  - 入门指南: /strat_guide
-    - 11: /test1
+  - 简介: index
+  - 入门指南: 
+    - start_guide.md
+    - hahaha.md
   - OC指南: /OC-guide
+  - 测试页面: 
+    - aa: 1/ingress.md
+    - bb: 1/与Portal交互.md
