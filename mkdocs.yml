@@ -41,5 +41,11 @@ extra:
 
 nav:
   - 简介: index.md
-  - 入门指南: /start_guide
+  - 入门指南: 
+    - 为何热爱: 入门指南/start_guide.md
+    - 快速开始: 入门指南/快速开始.md
+    - 初识页面: 入门指南/初识页面.md
+    - 与Portal交互: 入门指南/与Portal交互.md
   - OC指南: /OC-guide
+  - 相关资料: 相关资料.md  
+  - 友情链接: 友情链接.md
